@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  font-size: 17px;
+  margin: 0;
+  font-family: Jeneva, sans-serif;
+  color: #edf6f7;
+  background: linear-gradient(45deg, #cec6f6, #5008f9);
+}
+
+.header {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 640px;
+}
+
+.row {
+  margin: 0.5rem 0;
+}
+
+.code {
+  background: #f6f8fa;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
